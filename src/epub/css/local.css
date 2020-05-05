@@ -9,6 +9,15 @@ footer{
 	font-variant: small-caps;
 }
 
+cite{
+	font-variant: small-caps;
+}
+
+/* this is to stop odd-looking indentation following a biblical reference */
+[epub|type~="endnote"] p{
+	text-indent: 0;
+}
+
 [epub|type~="z3998:poem"] p,
 [epub|type~="z3998:song"] p,
 [epub|type~="z3998:verse"] p{
@@ -50,4 +59,20 @@ p span.i1{
 p span.i2{
 	text-indent: -1em;
 	padding-left: 3em;
+}
+
+p span.i3{
+	text-indent: -1em;
+	padding-left: 5em;
+}
+
+[epub|type~="epigraph"]{
+	font-style: italic;
+	hyphens: none;
+}
+
+[epub|type~="epigraph"] cite{
+	margin-top: 1em;
+	font-style: normal;
+	font-variant: small-caps;
 }
