@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/john-bunyan_charles-offor/the-pilgrims-progress</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/john-bunyan/the-pilgrims-progress</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -29,6 +29,7 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Pilgrim’s Progress</dc:title>
 		<meta property="file-as" refines="#title">Pilgrim’s Progress, The</meta>
+		<dc:title id="fulltitle">The Pilgrim's Progress from This World, to That Which Is to Come</dc:title>
 		<dc:subject id="subject-1">Bunyan, John, 1628-1688</dc:subject>
 		<dc:subject id="subject-2">Authors, English -- Early modern, 1500-1700 -- Biography</dc:subject>
 		<dc:subject id="subject-3">Christian literature, English -- History and criticism</dc:subject>
@@ -46,33 +47,38 @@
 		<meta property="term" refines="#subject-5">sh85025119</meta>
 		<meta property="se:subject">Fiction</meta>
 		<meta property="se:subject">Spirituality</meta>
-		<dc:description id="description">DESCRIPTION</dc:description>
+		<dc:description id="description">An allegorical story of a pilgrim in search of redemption, followed later by his wife and children, passing through great trials before reaching the Celestial City.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			LONG_DESCRIPTION
+			&lt;p&gt;&lt;i&gt;The Pilgrim’s Progress from This World, to That Which Is to Come&lt;/i&gt; was written in 1678 by John Bunyan, a Puritan and a dissenter from the Church of England. It is an allegory of the journey to redemption of the faithful, through many snares and difficulties. Cast in the form of a dream, the first part of the work deals with a man called Christian, who sets off carrying a great burden. He both meets many helpers and many adversaries on this journey. The second part of the work deals with Christian’s wife, Christiana and her four children, who follow a similar journey.&lt;/p&gt;
+			&lt;p&gt;One of the most influential of all religious works, &lt;i&gt;The Pilgrim’s Progress&lt;/i&gt; was immediately popular and has been translated over the years into many languages and into many forms, including verse, opera, movies, and many illustrated versions for children. Several of its story elements, characters and locations have entered the language, such as The Slough of Despond, Vanity Fair, Great-heart and Giant Despair.&lt;/p&gt;
+			&lt;p&gt;This Standard Ebooks edition is based on a version of Bunyan’s complete works edited by George Offor and published in 1855. It contains many endnotes drawn from a variety of commentators.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/6048</dc:source>
-		<meta property="se:production-notes">All of the footnotes of both Part I and Part II have been consolidated in the endnotes, together with all Biblical references, and renumbered from the beginning.</meta>
+		<dc:source>https://archive.org/details/worksofjohnbunya03buny</dc:source>
+		<meta property="se:production-notes">All of the footnotes of both Part I and Part II have been consolidated in the endnotes, combined together with all Biblical references, and renumbered from the beginning.</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Pilgrim%27s_Progress</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-bunyan_charles-offor_the-pilgrims-progress</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-bunyan_the-pilgrims-progress</meta>
 		<dc:creator id="author">John Bunyan</dc:creator>
 		<meta property="file-as" refines="#author">Bunyan, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Bunyan</meta>
 		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n78095526</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
-		<dc:creator id="annotator">Charles Offor</dc:creator>
-		<meta property="file-as" refines="#annotator">Offor, Charles</meta>
-		<meta property="role" refines="#annotator" scheme="marc:relators">ann</meta>
-		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
-		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URL</meta>
+		<dc:contributor id="editor">George Offor</dc:contributor>
+		<meta property="file-as" refines="#editor">Offor, George</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/George_Offor</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">https://id.loc.gov/authorities/names/n87826301</meta>
+		<dc:contributor id="artist">Wilhelm von Kaulbach</dc:contributor>
+		<meta property="file-as" refines="#artist">Kaulbach, Wilhelm von</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Wilhelm_von_Kaulbach</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n84087346</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Charles Aldarondo</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Aldarondo, Charles</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
 		<dc:contributor id="producer-1">David Grigg</dc:contributor>
 		<meta property="file-as" refines="#producer-1">Grigg, David</meta>
@@ -93,10 +99,13 @@
 		<item href="images/titlepage.svg" id="titlepage.svg" media-type="image/svg+xml"/>
 		<item href="text/colophon.xhtml" id="colophon.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/endnotes.xhtml" id="endnotes.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/foreword.xhtml" id="foreword.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/halftitle.xhtml" id="halftitle.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/imprint.xhtml" id="imprint.xhtml" media-type="application/xhtml+xml" properties="svg"/>
 		<item href="text/part-1-1.xhtml" id="part-1-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-1.xhtml" id="part-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/part-2-1.xhtml" id="part-2-1.xhtml" media-type="application/xhtml+xml"/>
+		<item href="text/part-2.xhtml" id="part-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-1.xhtml" id="preface-1.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/preface-2.xhtml" id="preface-2.xhtml" media-type="application/xhtml+xml"/>
 		<item href="text/titlepage.xhtml" id="titlepage.xhtml" media-type="application/xhtml+xml" properties="svg"/>
@@ -105,9 +114,12 @@
 	<spine>
 		<itemref idref="titlepage.xhtml"/>
 		<itemref idref="imprint.xhtml"/>
+		<itemref idref="foreword.xhtml"/>
 		<itemref idref="halftitle.xhtml"/>
+		<itemref idref="part-1.xhtml"/>
 		<itemref idref="preface-1.xhtml"/>
 		<itemref idref="part-1-1.xhtml"/>
+		<itemref idref="part-2.xhtml"/>
 		<itemref idref="preface-2.xhtml"/>
 		<itemref idref="part-2-1.xhtml"/>
 		<itemref idref="endnotes.xhtml"/>
