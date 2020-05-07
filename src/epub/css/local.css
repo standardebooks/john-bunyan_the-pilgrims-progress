@@ -67,6 +67,7 @@ p span.i3{
 	padding-left: 5em;
 }
 
+/* All epigraphs */
 [epub|type~="epigraph"]{
 	font-style: italic;
 	hyphens: none;
@@ -77,3 +78,23 @@ p span.i3{
 	font-style: normal;
 	font-variant: small-caps;
 }
+/* End all epigraphs */
+
+header [epub|type~="epigraph"] cite{
+	font-variant: small-caps;
+}
+
+/* Epigraphs in section headers */
+section > header [epub|type~="epigraph"]{
+	display: inline-block;
+	margin: auto;
+	max-width: 80%;
+	text-align: left;
+}
+
+@supports(display: table){
+	section > header [epub|type~="epigraph"]{
+		display: table;
+	}
+}
+/* End epigraphs in section headers */
