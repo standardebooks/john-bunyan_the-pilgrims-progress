@@ -2,8 +2,8 @@
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/john-bunyan/the-pilgrims-progress</dc:identifier>
-		<dc:date>1900-01-01T00:00:00Z</dc:date>
-		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
+		<dc:date>2020-05-07T23:30:38Z</dc:date>
+		<meta property="dcterms:modified">2020-05-07T23:30:38Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
 		<dc:publisher id="publisher">Standard Ebooks</dc:publisher>
 		<meta property="file-as" refines="#publisher">Standard Ebooks</meta>
@@ -29,7 +29,10 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">The Pilgrim’s Progress</dc:title>
 		<meta property="file-as" refines="#title">Pilgrim’s Progress, The</meta>
+		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="fulltitle">The Pilgrim's Progress from This World, to That Which Is to Come</dc:title>
+		<meta property="file-as" refines="#fulltitle">Pilgrim's Progress from This World, to That Which Is to Come, The</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
 		<dc:subject id="subject-1">Bunyan, John, 1628-1688</dc:subject>
 		<dc:subject id="subject-2">Authors, English -- Early modern, 1500-1700 -- Biography</dc:subject>
 		<dc:subject id="subject-3">Christian literature, English -- History and criticism</dc:subject>
@@ -49,16 +52,16 @@
 		<meta property="se:subject">Spirituality</meta>
 		<dc:description id="description">An allegorical story of a pilgrim in search of redemption, followed later by his wife and children, passing through great trials before reaching the Celestial City.</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
-			&lt;p&gt;&lt;i&gt;The Pilgrim’s Progress from This World, to That Which Is to Come&lt;/i&gt; was written in 1678 by John Bunyan, a Puritan and a dissenter from the Church of England. It is an allegory of the journey to redemption of the faithful, through many snares and difficulties. Cast in the form of a dream, the first part of the work deals with a man called Christian, who sets off carrying a great burden. He both meets many helpers and many adversaries on this journey. The second part of the work deals with Christian’s wife, Christiana and her four children, who follow a similar journey.&lt;/p&gt;
-			&lt;p&gt;One of the most influential of all religious works, &lt;i&gt;The Pilgrim’s Progress&lt;/i&gt; was immediately popular and has been translated over the years into many languages and into many forms, including verse, opera, movies, and many illustrated versions for children. Several of its story elements, characters and locations have entered the language, such as The Slough of Despond, Vanity Fair, Great-heart and Giant Despair.&lt;/p&gt;
-			&lt;p&gt;This Standard Ebooks edition is based on a version of Bunyan’s complete works edited by George Offor and published in 1855. It contains many endnotes drawn from a variety of commentators.&lt;/p&gt;
+			&lt;p&gt;&lt;i&gt;The Pilgrim’s Progress from This World, to That Which Is to Come&lt;/i&gt; was written in 1678 by John Bunyan, a Puritan and a dissenter from the Church of England. It is an allegory of the journey to redemption of the faithful, through many snares and difficulties. Cast in the form of a dream, the first part of the work deals with a man called Christian, who sets off carrying a great burden. He meets many helpers and many adversaries on this journey. The second part of the work deals with Christian’s wife, Christiana, and her four children, who follow a similar journey.&lt;/p&gt;
+			&lt;p&gt;One of the most influential of all religious works, &lt;i&gt;The Pilgrim’s Progress&lt;/i&gt; was immediately popular and has been translated over the years into many languages and into many forms, including verse, opera, movies, and many illustrated versions for children. Several of its story elements, characters and locations have entered the language, such as the “Slough of Despond,” “Vanity Fair,” “Great-heart,” and “Giant Despair.”&lt;/p&gt;
+			&lt;p&gt;This edition is based on a version of Bunyan’s complete works edited by George Offor and published in 1855. It contains many endnotes drawn from a variety of commentators.&lt;/p&gt;
 		</meta>
 		<dc:language>en-GB</dc:language>
 		<dc:source>https://www.gutenberg.org/ebooks/6048</dc:source>
 		<dc:source>https://archive.org/details/worksofjohnbunya03buny</dc:source>
 		<meta property="se:production-notes">All of the footnotes of both Part I and Part II have been consolidated in the endnotes, combined together with all Biblical references, and renumbered from the beginning.</meta>
-		<meta property="se:word-count">WORD_COUNT</meta>
-		<meta property="se:reading-ease.flesch">READING_EASE</meta>
+		<meta property="se:word-count">110123</meta>
+		<meta property="se:reading-ease.flesch">74.32</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Pilgrim%27s_Progress</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-bunyan_the-pilgrims-progress</meta>
 		<dc:creator id="author">John Bunyan</dc:creator>
@@ -89,6 +92,10 @@
 		<meta property="role" refines="#producer-1" scheme="marc:relators">mrk</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">pfr</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">tyg</meta>
+		<dc:contributor id="producer-2">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-2">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-2">https://alexcabal.com</meta>
+		<meta property="role" refines="#producer-2" scheme="marc:relators">pfr</meta>
 	</metadata>
 	<manifest>
 		<item href="toc.xhtml" id="toc.xhtml" media-type="application/xhtml+xml" properties="nav"/>
