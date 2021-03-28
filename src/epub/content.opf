@@ -70,7 +70,7 @@
 		<dc:creator id="author">John Bunyan</dc:creator>
 		<meta property="file-as" refines="#author">Bunyan, John</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/John_Bunyan</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/n78095526</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">http://id.loc.gov/authorities/names/n78095526</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<meta property="se:role" refines="#author" scheme="marc:relators">wpr</meta>
 		<dc:contributor id="editor">George Offor</dc:contributor>
@@ -78,11 +78,11 @@
 		<meta property="se:role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/George_Offor</meta>
-		<meta property="se:url.authority.nacoaf" refines="#editor">https://id.loc.gov/authorities/names/n87826301</meta>
+		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n87826301</meta>
 		<dc:contributor id="artist">Wilhelm von Kaulbach</dc:contributor>
 		<meta property="file-as" refines="#artist">Kaulbach, Wilhelm von</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">https://en.wikipedia.org/wiki/Wilhelm_von_Kaulbach</meta>
-		<meta property="se:url.authority.nacoaf" refines="#artist">https://id.loc.gov/authorities/names/n84087346</meta>
+		<meta property="se:url.authority.nacoaf" refines="#artist">http://id.loc.gov/authorities/names/n84087346</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
 		<dc:contributor id="transcriber-1">Charles Aldarondo</dc:contributor>
 		<meta property="file-as" refines="#transcriber-1">Aldarondo, Charles</meta>
