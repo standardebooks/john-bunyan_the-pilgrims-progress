@@ -38,7 +38,7 @@
 		<dc:subject id="subject-4">Puritans -- England -- Biography</dc:subject>
 		<dc:subject id="subject-5">Christian literature, English</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">Unknown</meta>
+		<meta property="term" refines="#subject-1">n78095526</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
 		<meta property="term" refines="#subject-2">sh2007101634</meta>
 		<meta property="authority" refines="#subject-3">LCSH</meta>
