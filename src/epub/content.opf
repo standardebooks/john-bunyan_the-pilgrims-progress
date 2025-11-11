@@ -77,6 +77,7 @@
 		<meta property="file-as" refines="#editor">Offor, George</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">ann</meta>
 		<meta property="role" refines="#editor" scheme="marc:relators">edt</meta>
+		<meta property="role" refines="#editor" scheme="marc:relators">wfw</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#editor">https://en.wikipedia.org/wiki/George_Offor</meta>
 		<meta property="se:url.authority.nacoaf" refines="#editor">http://id.loc.gov/authorities/names/n87826301</meta>
 		<dc:contributor id="artist">Wilhelm von Kaulbach</dc:contributor>
