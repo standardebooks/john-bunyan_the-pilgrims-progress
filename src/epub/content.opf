@@ -63,7 +63,7 @@
 		<dc:source>https://www.gutenberg.org/ebooks/6048</dc:source>
 		<dc:source>https://archive.org/details/worksofjohnbunya03buny</dc:source>
 		<meta property="se:production-notes">All of the footnotes of both Part I and Part II have been consolidated in the endnotes, combined together with all Biblical references, and renumbered from the beginning.</meta>
-		<meta property="se:word-count">110129</meta>
+		<meta property="se:word-count">109753</meta>
 		<meta property="se:reading-ease.flesch">74.32</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/The_Pilgrim%27s_Progress</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/john-bunyan_the-pilgrims-progress</meta>
