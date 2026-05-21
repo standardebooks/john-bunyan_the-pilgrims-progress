@@ -15,7 +15,7 @@ cite{
 }
 
 /* this is to stop odd-looking indentation following a biblical reference */
-[epub|type~="endnote"] p{
+[epub|type~="endnotes"] > ol > li p{
 	text-indent: 0;
 }
 
