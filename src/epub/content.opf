@@ -33,7 +33,7 @@
 		<meta property="title-type" refines="#title">main</meta>
 		<dc:title id="fulltitle">The Pilgrim’s Progress from This World, to That Which Is to Come</dc:title>
 		<meta property="file-as" refines="#fulltitle">Pilgrim’s Progress from This World, to That Which Is to Come, The</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Bunyan, John, 1628-1688</dc:subject>
 		<dc:subject id="subject-2">Authors, English -- Early modern, 1500-1700 -- Biography</dc:subject>
 		<dc:subject id="subject-3">Christian literature, English -- History and criticism</dc:subject>
